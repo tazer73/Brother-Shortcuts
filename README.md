@@ -23,4 +23,4 @@ Scan to Email:
 Line 1: ID of shortcut on printer
 Line 2: Name of button on printer
 Line 218: Change this to match the printers online fax message
-Line 261: Change this to match the Persons ID in the address book (Found in the original Setting.json)
+Line 261: Change this to match the Persons ID in the address book (Found in the original Setting.json or on the printers online interface)
