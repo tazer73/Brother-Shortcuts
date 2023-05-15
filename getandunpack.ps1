@@ -17,5 +17,3 @@ if ($networkname -match $ipRegex) {
     exit
 }
 & "$settingcmdpath" unpack --file "$workingdir" --unpackdir (Split-Path $workingdir -Parent) --password "$password"
-
-Pause
