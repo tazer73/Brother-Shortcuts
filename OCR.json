@@ -1,0 +1,511 @@
+{
+    "id": 111111,
+    "name": "Button Name",
+    "card_id": "",
+    "app_setting": {
+      "app_type": "scan",
+      "app_type_option": {
+        "fax": {
+          "onetouch_enabled": false,
+          "sort_string": "",
+          "resolution": "standard",
+          "two_sided": "off",
+          "contrast": "auto",
+          "real_time_tx_enabled": false,
+          "overseas_mode_enabled": false,
+          "document_size": "letter",
+          "broadcasting_enabled": false,
+          "coverpage_enabled": false,
+          "coverpage_enabled_option": {
+            "true_choice": {
+              "message": "note_off",
+              "page": 0
+            }
+          },
+          "send_preview_enabled": false,
+          "color_setting_enabled": false,
+          "address": [
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            },
+            {
+              "type": "speed",
+              "id": 0,
+              "index": 0
+            }
+          ]
+        },
+        "copy": {
+          "preset_type": "normal",
+          "quality": "auto",
+          "enlarge_reduce": "auto",
+          "enlarge_reduce_option": {
+            "choice": {
+              "choice_ratio": "40"
+            },
+            "custom": {
+              "custom_ratio": 0
+            }
+          },
+          "contrast": "-2",
+          "density": "-2",
+          "stack_sort": "stack",
+          "page_layout": "normal",
+          "page_layout_option": {
+            "normal": {
+              "pages_per_sheet": 0,
+              "page_orientation": "portrait"
+            },
+            "poster_copy": {
+              "pages": "2x1"
+            },
+            "id_copy": {
+              "pages_per_sheet": 0
+            },
+            "split_copy": {
+              "pages": "1to2"
+            }
+          },
+          "layout_format": "small_scan_document",
+          "two_sided_copy": {
+            "from": "one_sided",
+            "to": "one_sided"
+          },
+          "tray_use_policy": {
+            "type": "only",
+            "type_option": {
+              "only": {
+                "tray_name": "tray1"
+              },
+              "priority": {
+                "prior_tray_type": "normal",
+                "tray_number_order": "ascending"
+              }
+            }
+          },
+          "paper_type": "plain",
+          "paper_size": "a3",
+          "document_size": "letter_land",
+          "remove_background_color": "off",
+          "remove_background_color_bw": "off",
+          "remove_background_color_clr": "off",
+          "auto_deskew": "off",
+          "color_adj_red": "-2",
+          "color_adj_green": "-2",
+          "color_adj_blue": "-2",
+          "advanced_settings": "off",
+          "advanced_settings_option": {
+            "watermark_copy": {
+              "text": "confidential",
+              "position": "a",
+              "size": "small",
+              "angle": "-90",
+              "transparency": "-2",
+              "color": "black"
+            }
+          },
+          "copy_preview": false
+        },
+        "scan": {
+          "onetouch_enabled": true,
+          "scan_type": "custom_setting",
+          "scan_type_option": {
+            "profile": {
+              "id": 0
+            },
+            "custom_setting": {
+              "type": "pc",
+              "type_option": {
+                "email_server": {
+                  "scan_setting": {
+                    "scan_type": "color",
+                    "resolution": "100",
+                    "document_size": "a4",
+                    "two_sided_scan": "off",
+                    "file_name_type": "manual",
+                    "file_name": "",
+                    "file_name_style": "name_date_counter",
+                    "file_size": "small",
+                    "moire_reduction_enabled": false,
+                    "skip_blank_page_enabled": false,
+                    "skip_blank_page_enabled_option": {
+                      "true_choice": {
+                        "sensitivity": "-5"
+                      }
+                    },
+                    "auto_deskew": "off",
+                    "remove_background_color": "off",
+                    "brightness": "-50",
+                    "contrast": "-50",
+                    "file_type": {
+                      "format": "pdf",
+                      "format_option": {
+                        "pdf": {
+                          "secure_enabled": false,
+                          "signed_enabled": false,
+                          "archive_enabled": false,
+                          "high_compression_enabled": false,
+                          "page_split": "single"
+                        },
+                        "tiff": {
+                          "page_split": "single",
+                          "color_gray_tiff_compression": "jpeg",
+                          "b_and_w_tiff_compression": "ccitt_group3"
+                        }
+                      }
+                    },
+                    "margin_settings": {
+                      "margin_option": {
+                        "detail_settings": {
+                          "top_margin": "-30",
+                          "bottom_margin": "-30",
+                          "left_margin": "-30",
+                          "right_margin": "-30"
+                        }
+                      }
+                    },
+                    "continuous_scan_enabled": false,
+                    "auto_color_detect_adjust": {
+                      "color": "-5",
+                      "black_and_white_or_gray": "-5"
+                    },
+                    "file_split": {
+                      "mode": "off",
+                      "number_of_pages": 0,
+                      "number_of_documents": 0
+                    },
+                    "auto_crop": false,
+                    "scan_preview": false
+                  },
+                  "send_setting": {
+                    "sort_string": "",
+                    "address": [
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      },
+                      {
+                        "type": "speed",
+                        "id": 0,
+                        "index": 0
+                      }
+                    ]
+                  }
+                },
+                "media": {
+                  "scan_setting": {
+                    "scan_type": "color",
+                    "resolution": "100",
+                    "document_size": "a4",
+                    "two_sided_scan": "off",
+                    "file_name_type": "manual",
+                    "file_name": "",
+                    "file_name_style": "name_date_counter",
+                    "file_size": "small",
+                    "moire_reduction_enabled": false,
+                    "skip_blank_page_enabled": false,
+                    "skip_blank_page_enabled_option": {
+                      "true_choice": {
+                        "sensitivity": "-5"
+                      }
+                    },
+                    "auto_deskew": "off",
+                    "remove_background_color": "off",
+                    "brightness": "-50",
+                    "contrast": "-50",
+                    "file_type": {
+                      "format": "pdf",
+                      "format_option": {
+                        "pdf": {
+                          "secure_enabled": false,
+                          "signed_enabled": false,
+                          "archive_enabled": false,
+                          "high_compression_enabled": false,
+                          "page_split": "single"
+                        },
+                        "tiff": {
+                          "page_split": "single",
+                          "color_gray_tiff_compression": "jpeg",
+                          "b_and_w_tiff_compression": "ccitt_group3"
+                        }
+                      }
+                    },
+                    "margin_settings": {
+                      "margin_option": {
+                        "detail_settings": {
+                          "top_margin": "-30",
+                          "bottom_margin": "-30",
+                          "left_margin": "-30",
+                          "right_margin": "-30"
+                        }
+                      }
+                    },
+                    "continuous_scan_enabled": false,
+                    "auto_color_detect_adjust": {
+                      "color": "-5",
+                      "black_and_white_or_gray": "-5"
+                    },
+                    "file_split": {
+                      "mode": "off",
+                      "number_of_pages": 0,
+                      "number_of_documents": 0
+                    },
+                    "auto_crop": false,
+                    "scan_preview": false
+                  }
+                },
+                "pc": {
+                  "scan_setting": {
+                    "settings": "set_from_computer",
+                    "settings_option": {
+                      "set_from_computer": {
+                        "two_sided_scan": "off"
+                      },
+                      "set_at_device": {
+                        "scan_type": "color",
+                        "resolution": "100",
+                        "document_size": "a4",
+                        "two_sided_scan": "off",
+                        "moire_reduction_enabled": false,
+                        "skip_blank_page_enabled": false,
+                        "skip_blank_page_enabled_option": {
+                          "true_choice": {
+                            "sensitivity": "-5"
+                          }
+                        },
+                        "auto_deskew": "off",
+                        "remove_background_color": "off",
+                        "brightness": "-50",
+                        "contrast": "-50",
+                        "file_type": {
+                          "format": "pdf",
+                          "format_option": {
+                            "pdf": {
+                              "secure_enabled": false,
+                              "signed_enabled": false,
+                              "archive_enabled": false,
+                              "high_compression_enabled": false,
+                              "page_split": "single"
+                            },
+                            "tiff": {
+                              "page_split": "single",
+                              "color_gray_tiff_compression": "jpeg",
+                              "b_and_w_tiff_compression": "ccitt_group3"
+                            }
+                          }
+                        },
+                        "continuous_scan_enabled": false,
+                        "margin_settings": {
+                          "margin_option": {
+                            "detail_settings": {
+                              "top_margin": "-30",
+                              "bottom_margin": "-30",
+                              "left_margin": "-30",
+                              "right_margin": "-30"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "send_setting": {
+                    "type": "ocr",
+                    "pc_name": "CHANGE ME"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "app": {
+          "kind": "copy"
+        },
+        "solution": {
+          "app": "menu1"
+        }
+      }
+    }
+  }
