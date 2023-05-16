@@ -1,7 +1,7 @@
 # Brother-Shortcus
 Templates as well as instructions on how to send, receive, and edit Brother edpk/json files.
 
-In order to use getandunpack.ps1, you first need to first download the Mass Deployment Tool from
+In order to use getandunpack.ps1, you first need to download the Mass Deployment Tool from
 the Brother website. https://support.brother.com/g/b/agreement.aspx?dlid=dlf103360_000&c=us&lang=en
 Then place the SettingCommand folder into your Program Files DIR.(C:\Program Files\SettingCommand)
 
