@@ -1,3 +1,5 @@
+#Can be used for searching the address book to find someones ID
+
 $jsonFilePath = "C:\Users\mkielnik\Documents\Testing\Dump1\setting.json"
 $searchText = Read-Host "Enter a name"
 $previousLineNumbers = $null
