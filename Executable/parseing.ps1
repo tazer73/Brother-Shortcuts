@@ -10,7 +10,6 @@ Get-Content -Path $jsonFilePath | ForEach-Object {
         # Extract numbers from the previous line
         $previousLineNumbers = [regex]::Matches($prevLine, '\d+').Value
     }
-
     # Update the previous line for the next iteration
     $prevLine = $_
 }
@@ -18,7 +17,6 @@ Get-Content -Path $jsonFilePath | ForEach-Object {
 # Use the extracted numbers
 if ($previousLineNumbers) {
     Write-Host $previousLineNumbers
-    #"Numbers from the previous line: $previousLineNumbers"
 } else {
     Write-Host "No numbers found in the previous line."
 }
