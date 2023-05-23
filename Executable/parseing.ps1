@@ -1,6 +1,6 @@
 #Can be used for searching the address book to find someones ID
 
-$jsonFilePath = "C:\Users\mkielnik\Documents\Testing\Dump1\setting.json"
+$jsonFilePath = "Dump Files\Temp 1\Setting.json"
 $searchText = Read-Host "Enter a name"
 $previousLineNumbers = $null
 
@@ -18,6 +18,6 @@ Get-Content -Path $jsonFilePath | ForEach-Object {
 if ($previousLineNumbers) {
     Write-Host $previousLineNumbers
 } else {
-    Write-Host "No numbers found in the previous line."
+    Write-Host "Name not in adress book."
 }
 
