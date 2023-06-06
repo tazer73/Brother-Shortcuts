@@ -7,7 +7,7 @@ Using getandunpack.ps1:
     (https://support.brother.com/g/b/agreement.aspx?dlid=dlf103360_000&c=us&lang=en)
     2. Then place the SettingCommand folder into your Program Files DIR.(C:\Program Files\SettingCommand)
     3. Run the getandunpack.ps1 file.
-    4. Enter the Node name / IP , then specify the output DIR along with the name you want to give your file.  
+    4. Enter the Node name/IP , then specify the output DIR along with the name you want to give your file.  
     (C:\Users\User\test.edpk) Finally enter the password of the printer.
     5. The edpk along with the Setting.json file will be in the output DIR specified in the previous step.
 
